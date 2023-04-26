@@ -1,0 +1,15 @@
+
+header {
+  display: grid;
+  grid-template-columns: 180px auto;
+  align-items: center;
+}
+
+.footer{
+  text-align: center;
+  border-top: 5px double;
+  border-bottom: 5px double;
+  margin-bottom: -5px;
+  display:block;
+
+}
