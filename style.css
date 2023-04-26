@@ -2,14 +2,28 @@
 header {
   display: grid;
   grid-template-columns: 180px auto;
-  align-items: center;
+  background-color: #81F499;
+}
+
+main {
+  text-align: center;
 }
 
 .footer{
+  background-color: #81F499;
   text-align: center;
   border-top: 5px double;
   border-bottom: 5px double;
   margin-bottom: -5px;
   display:block;
+}
 
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.links {
+  list-style: none;
+  display: grid;
 }
